@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>mumu twitter</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <h1>here is mumu twitter</h1>
+  <button id="dori">was btn</button>
+
+  <button id="muzzi">db btn</button>
+  <script>
+    console.log("hello index");
+    document.getElementById("muzzi").addEventListener("click", () => {
+      axios.get("/db_twitter").then((res) => {
+        alert(JSON.stringify(res.data));
+      });
+    });
+    document.getElementById("dori").addEventListener("click", () => {
+      fetch("/was_twitter")
+        .then((response) => {
+          // 응답을 JSON으로 파싱
+          return response.json();
+        })
+        .then((data) => {
+          // 처리할 작업
+          console.log(data);
+        })
+        .catch((error) => {
+          // 오류 처리얌ddddddddd
+          console.error("Error:", error);
+        });
+    });
+  </script>
+</body>
+
+</html>

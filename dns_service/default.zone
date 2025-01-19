@@ -1,0 +1,12 @@
+$TTL 3
+@               SOA     @       root (
+                                                0       ; serial
+                                                1D      ; refresh
+                                                1H      ; retry
+                                                1W      ; expire
+                                                3H )    ; minimum
+
+                IN      NS      @
+                IN      A       1.1.1.1
+
+www             IN      A       1.1.1.1
