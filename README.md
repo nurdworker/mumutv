@@ -8,7 +8,7 @@ A storytelling project about the chase between the police and illegal website ho
 Copyright (c) 2025 Nurd Worker. All rights reserved.
 Contact: nurdworker@gmail.com
 
-### 🎬 Implementation Advanced Version Video:
+### 🎬 Implementation Video:
 
 - 🎥[Video Link_korean](https://youtu.be/V3I2LtgOGnU?si=wAskYFOCaI4WncCf)
 
